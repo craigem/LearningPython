@@ -15,5 +15,13 @@ chapters, so we’ll just cover the big ideas here:
     a. Immutable means that it cannot be changed in place after it has been created
     b. Strings, numbers, tuples
 4. What does “sequence” mean, and which three types fall into that category?
+    a. a positionally ordered collection of other objects
+    b. Types that fall into the sequence category:
+        1. strings
+        2. lists
+        3. tuples
 5. What does “mapping” mean, and which core type is a mapping?
+    a. Mappings are collections of other objects, but they store objects by key instead of by relative position.
+    b. Dictionaries
 6. What is “polymorphism,” and why should you care?
+    a. Polymorphism menas that the meaning of an operation depends on the the objects being operated on.
