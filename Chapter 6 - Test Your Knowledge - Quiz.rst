@@ -17,27 +17,24 @@ Test Your Knowledge: Quiz
 
     A) No because strings are immutable.
 
-#. Consider these three statements. Do they change the printed value of A ? ::
+#. Consider these three statements. Do they change the printed value of A ?
 
-        A = ["spam"]
-        B = A
-        B[0] = "shrubbery"
+    .. code:: python
+      :number-lines:
 
-      A) Yes as they both point to the same object
+      A = ["spam"]
+      B = A
+      B[0] = "shrubbery"
 
-#. How about these—is A changed now? ::
+    A) Yes as they both point to the same object
 
-        A = ["spam"]
-        B = A[:]
-        B[0] = "shrubbery"
+#. How about these—is A changed now?
+
+    .. code:: python
+      :number-lines:
+
+      A = ["spam"]
+      B = A[:]
+      B[0] = "shrubbery"
 
       A) No because A was copied using splicing.
-
-
-
-.. code:: python
-  :number-lines:
-
-  A = "spam"
-  B = A
-  B = "shrubbery"
