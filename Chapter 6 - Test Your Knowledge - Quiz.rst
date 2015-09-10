@@ -2,16 +2,20 @@
  Chapter 6
 ===========
 
- Test Your Knowledge: Quiz
----------------------------
 
-1. Consider the following three statements. Do they change the value printed for A ? ::
+Test Your Knowledge: Quiz
+-------------------------
 
-        A = "spam"
-        B = A
-        B = "shrubbery"
+1. Consider the following three statements. Do they change the value printed for A ?
 
-      A) No because strings are immutable.
+    .. code:: python
+      :number-lines:
+
+      A = "spam"
+      B = A
+      B = "shrubbery"
+
+    A) No because strings are immutable.
 
 #. Consider these three statements. Do they change the printed value of A ? ::
 
@@ -28,3 +32,12 @@
         B[0] = "shrubbery"
 
       A) No because A was copied using splicing.
+
+
+
+.. code:: python
+  :number-lines:
+
+  A = "spam"
+  B = A
+  B = "shrubbery"
