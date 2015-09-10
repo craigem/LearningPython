@@ -37,4 +37,4 @@ Test Your Knowledge: Quiz
       B = A[:]
       B[0] = "shrubbery"
 
-      A) No because A was copied using splicing.
+    A) No because A was copied using splicing.
