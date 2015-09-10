@@ -6,14 +6,18 @@ Test Your Knowledge: Quiz
 -------------------------
 
 1. What is the value of the expression ``2 * (3 + 4)`` in Python?
+
     A. 14
+
 #. What is the value of the expression ``2 * 3 + 4`` in Python?
     A. 10
 #. What is the value of the expression ``2 + 3 * 4`` in Python?
     A. 14
 #. What tools can you use to find a number’s square root, as well as its square?
+
     A. math.sqrt
     A. ** (exponential) or pow()
+
 #. What is the type of the result of the expression ``1 + 2.0 + 3`` ?
     A. 6.0 - converted up to the most complex type - floating point.
 #. How can you truncate and round a floating-point number?
